@@ -4,10 +4,8 @@ This is a fork of the tutorial on how build a GraphQL Server article from plural
 - Put this in a docker container for easier deployment
 - Modification of mutators to support java optional data type for Java 8
 
-
-# Original Text
-
 Sample app for my tutorial [Building a GraphQL Server with Spring Boot](https://www.pluralsight.com/guides/java-and-j2ee/building-a-graphql-server-with-spring-boot). 
+
 
 Clone this repo and execute the following commands from the project root:
 - docker build --tag=bookgraphql .
