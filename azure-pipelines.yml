@@ -16,7 +16,7 @@ variables:
   # define 3 more variables: registryName, registryLogin and registryPassword in the build pipeline in UI
 
 steps:
-- script: docker build -f $(system.defaultWorkingDirectory)/$(projectName)/Dockerfile --tag=$(registryServerName)/$(imageName):$(build.buildId) $(system.defaultWorkingDirectory)/$(projectName)
+- script: docker build  --tag=$(registryServerName)/$(imageName):$(build.buildId) .
   displayName: 'docker build'
 
 - script: |
